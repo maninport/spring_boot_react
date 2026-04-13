@@ -1,0 +1,69 @@
+# --- Compiled Output ---
+target/
+build/
+out/
+bin/
+*.class
+*.war
+*.ear
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+# --- Spring Boot Specific ---
+*.log
+logs/
+.temp/
+.tmp/
+
+# --- Environment & Secrets ---
+.env
+.env.local
+# Ignore local property overrides
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# --- Maven ---
+.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# --- Gradle ---
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+# Optional: If you want to share run configurations, uncomment the line below:
+# !.idea/runConfigurations/
+
+# --- Eclipse ---
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.metadata/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+.history/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+*.DS_Store
