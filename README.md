@@ -1,0 +1,2 @@
+- The content of this repository get from _Master Spring Boot 3 & Spring Framework 6 with Java_ from Udemy course by in28minutes.
+- todo-app and todowebapp is a full stack application by using React and Spring Boot
